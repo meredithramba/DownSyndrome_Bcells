@@ -4,7 +4,7 @@ Scripts used for the computational analysis in the Biorxiv preprint "Dysregulate
 # Workflow Overview and Dependencies
 Analysis is split into spatial transcriptomic analysis and single cell RNA/BCR sequencing analysis. Each section requires its own dependencies (available for installation via yml conda files for each section). 
 
-The code is organized into several R notebooks, covering different steps of analysis. 
+The code is organized into several R notebooks, covering different steps of analysis, plus necessary additional files and shell scripts. 
 
 Spatial Transcriptomics:
 | SCRIPT | NOTEBOOK LINK | DESCRIPTION  |
