@@ -1,0 +1,49 @@
+name: spatial_environment
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+
+  # Base languages
+  - r-base=4.3
+  - python=3.10
+
+  # R packages via Conda
+  - r-seuratobject=4.1.4
+  - r-seurat=4.4.0
+  - r-Matrix=1.6.1.1
+  - r-hdf5r
+  - r-reticulate
+  - r-devtools
+  - r-ape
+  - r-stringi
+  - r-data.table
+  - r-ggplot2
+  - r-dplyr
+  - r-readr
+  - r-tibble
+  - r-harmony
+  - r-tidyverse
+
+# spatial functions
+  - r-forcats
+  - r-scales
+  - bioconductor-annotationdbi
+  - bioconductor-clusterprofiler
+  - bioconductor-org.hs.eg.db
+  - r-future
+  - r-pheatmap
+  - r-ggdendro
+  - r-cowplot
+
+  # ICU version compatible with r-stringi
+  - icu=72
+
+  # Python packages
+  - pip
+  - pip:
+      - anndata
+      - scanpy
+      - squidpy
