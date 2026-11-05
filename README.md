@@ -1,5 +1,5 @@
 # Dysregulated B Cell Education in Down Syndrome
-Scripts used for the computational analysis in the Biorxiv preprint "Dysregulated B Cell Education Drives Autoimmunity and Immunodeficiency in Down Syndrome" (Ramba et al)
+Scripts used for the computational analysis in the Medrxiv preprint "Dysregulated B Cell Education Drives Autoimmunity and Immunodeficiency in Down Syndrome" (Ramba et al)
 
 # Workflow Overview and Dependencies
 Analysis is split into spatial transcriptomic analysis and single cell RNA/BCR sequencing analysis. Each section requires its own dependencies (available for installation via yml conda files for each section). 
